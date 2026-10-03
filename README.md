@@ -2,17 +2,17 @@
 
 I'm a **Java backend developer**. I work mostly with Spring Boot, and lately I've been building distributed systems with Kafka, Oracle and Angular. I also do machine learning in Python.
 
-- 🔭 Currently building **[PayFlow](https://github.com/Sarvesh-S-Patil/PayFlow-Demo)**, a corporate payments platform made of microservices
+- 🔭 Currently building **[PayFlow](https://github.com/Sarvesh-S-Patil/PayFlow-Demo)**, an internet banking payments platform made of microservices
 - 🌱 Learning: event-driven architecture, concurrency, Spring Batch
 
 ---
 
 ### ⭐ Featured project: PayFlow
 
-**Four Spring Boot microservices and an Angular UI that model a corporate banking payment flow.** A maker creates a payment, a different checker approves it, and a mock bank posts it over the IFT or NEFT rails.
+**Four Spring Boot microservices and an Angular UI that model an internet banking payment flow.** A maker creates a payment, a different checker approves it, and a mock bank posts it over the IFT or NEFT rails.
 
 <a href="https://github.com/Sarvesh-S-Patil/PayFlow-Demo">
-  <img src="https://raw.githubusercontent.com/Sarvesh-S-Patil/PayFlow-Demo/main/screenshots/demo.gif" alt="PayFlow demo: maker creates a payment, checker approves it, the bank posts it" width="720">
+  <img src="https://raw.githubusercontent.com/Sarvesh-S-Patil/PayFlow-Demo/main/screenshots/demo.gif?v=2" alt="PayFlow demo: maker creates a payment, checker approves it, the bank posts it" width="720">
 </a>
 
 - **Maker-checker approval**, enforced in the service layer and again by a database `CHECK` constraint
@@ -32,7 +32,7 @@ I'm a **Java backend developer**. I work mostly with Spring Boot, and lately I'v
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**PayFlow**](https://github.com/Sarvesh-S-Patil/PayFlow-Demo) | Corporate payments platform: maker-checker, outbox, Kafka, mock bank | Spring Boot · Kafka · Oracle · Angular |
+| [**PayFlow**](https://github.com/Sarvesh-S-Patil/PayFlow-Demo) | Internet banking payments platform: maker-checker, outbox, Kafka, mock bank | Spring Boot · Kafka · Oracle · Angular |
 | [**Library Management System**](https://github.com/Sarvesh-S-Patil/LibraryManagementSystem) | REST API for books, students, library cards, issue/return, and overdue fines | Spring Boot · JPA/Hibernate · MySQL |
 | [**URL Shortener**](https://github.com/Sarvesh-S-Patil/URL-Shortener) | Turns long URLs into short codes (ID encoded in base 26) and redirects with HTTP 302 | Spring Boot · JPA · MySQL |
 | [**Bank Application**](https://github.com/Sarvesh-S-Patil/BankApplication) | Web banking app with admin and customer portals, transactions and a passbook | Java Servlets · JSP · JDBC · MySQL |
